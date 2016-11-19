@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script 
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">      </script>
+		<style> 
+		h1 { 
+			color: #234c7e; 
+			font-family: Helvetica, sans-serif;
+			font-size: 60px;
+			background-color: #c9dff2;
+			background-color: white
+		}
+		p {
+			color: blue;
+		
+		}
+		img {text-align: center;
+			height: 350px;
+			width: auto;
+			display: inline-block;
+
+
+		}
+		body {background-color: #c9dff2;
+		}
+		ul {list-style-type: square;
+		}
+
+		#pdiddy {
+			color: white;
+		}
+		#City {color: white;
+		}
+		.priority {
+			text-align: center;
+			font: white;
+		}
+		#City {
+			list-style-position
+			text-indent: 700px;
+		}
+	.jumbotron {
+		text-align: center;
+		color:black;
+	}
+	.lead {
+		color: black;
+	}
+		</style>
+
+	<title>Bootleg ManCity Site</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	</head>
+<body>
+	 <header>
+    	<div class="container">
+		<div class="jumbotron">
+		<h1 id="mainheader"> GoalZone </h1> 
+		<p class="lead">Come check out all the good ish 
+		</p>
+		<p>
+			<a class= "btn btn-lg btn-success" href= http://www.footytube.com/
+				role= "button">See more </a>
+		</p>
+	</div>
+	</div>
+	</header>
+
+<nav class="navbar navbar-inverse navbar-fixed-top"> 
+	<div class="container">
+		<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data- 
+		toggle="collapse" data-target="#navbar" aria-expanded="false" aria- 
+		controls="navbar">
+		<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="#">Home</a> 
+	</div>
+	<div id="navbar" class="collapse navbar-collapse"> 
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="#">Featured News</a></li> 
+			<li><a href="#overview">Overview</a></li> 
+			<li><a href="#features">Shop</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+     </div>
+</nav>
+
+
+	<h1><strong> Manchester City </strong></h1>
+	<section>
+
+
+	<p id = pdiddy > We<strong> will </strong> win the league </p>
+	<p class="priority">
+	</p>
+	<p id="myParagraph"> 
+	These are a some sentences
+	</p>
+	<p id="prettyParagraph"> yo yo </p>
+	<button type="button" onclick="applyStyling()">Make it pretty!</button>
+	<script> 
+	function applyStyling() {
+		var paragraph = document.getElementById("prettyParagraph")
+		paragraph.style.color = "green";
+		paragraph.style.fontSize = "30px"
+		paragraph.style.fontWeight = "700";
+	}
+	</script>
+	
+	</section>
+	<div>
+		<a href="http://www.goal.com/en-us/match/crystal-palace-vs-manchester-city/2241869?ICID=LS" target="_blank"> <span style="font-size:20px;">Crystal Palace vs. Man City Score</span> </a> </style> <br>
+		<img src="http://i.dailymail.co.uk/i/pix/2014/05/11/article-	2625634-1DC0B2E700000578-829_634x400.jpg">
+		<img src="/Users/Quasie/Documents/Kellogg/Misc/Web Development/Serge.jpg">
+		<ul id = City> <style="list-style-type:square;">
+		<li> Cityzens </li>
+		<li> Do Not </li>
+		<li> Back Down</li>
+		<!--Its lowkey lit-->
+		</ul>
+	</div>
+	
+<div>
+		<h2 class= "priority" >GOATS</h2>
+		<p>YAYA Toure</p> 
+		 <div class="container">
+    <div class="row">
+		<div class="col-md-4">Robinho</div> 
+		<div class="col-md-4">Tevez.</div> 
+		<div class="col-md-4">Kolo</div>
+
+	</div>
+	<button type="button"
+	onclick="document.getElementById( 'myParagraph').innerHTML = 'Hello World'">Click</button><br><br>
+
+	<input id="numericInput" type="number">
+	<p id="result"></p>
+	<button type="button" onclick="testInput()">How Many Goals will City Score?</button>
+
+<script> 
+	    function testInput() {
+		// Create variable to store test result
+		var text;
+		// Get the value of the input field with id="numb"
+		var x = document.getElementById("numericInput").value; 
+		if (isNaN(x) || x < 0 || x > 99) {
+		                text = "Boooo";
+		           } else {
+		                text = "Hell Yea!";
+		           }
+		           // Display result
+		document.getElementById("result").innerHTML = text; 
+		}
+</script>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	    <div class="carousel-inner" role="listbox">
+	        <div class="item active">
+	             Get
+	        </div>
+	        <div class="item">
+	             Money
+	        </div>
+	        <div class="item">
+	             Power
+	        </div>
+	    </div>
+	</div>
+ <script type="text/javascript">
+	$(document).ready(function() { $("#myCarousel").carousel({interval: 3000});
+      });
+</script>
+
+	</body>
+	
+</html>
+
+
